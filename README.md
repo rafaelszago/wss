@@ -2,7 +2,11 @@
 
 This tool can be used to identify available services running on a server, it uses NMAP to find out what ports are open.
 
-## Running commands
+## Prerequisites
+
+- NMAP (https://nmap.org/)
+
+## Installing
 
 Give execute permission to script:
 
@@ -15,6 +19,8 @@ Add script to source:
 ```bash
 source wss.sh
 ```
+
+## Running
 
 And to run script:
 
